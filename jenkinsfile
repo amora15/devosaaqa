@@ -2,6 +2,10 @@ node
 {
   stage ('prueba')
    {
-     sh'Hola mundo'
+     sh'Hola mundo Colombia'
+    }
+    stage ('prueba 2')
+    {
+      sh 'construyendo el proyecto'
     }
  }
