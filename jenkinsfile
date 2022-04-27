@@ -4,4 +4,8 @@ node
    {
      sh'Hola mundo Colombia'
     }
+    stage ('prueba 2')
+    {
+      sh 'construyendo el proyecto'
+    }
  }
