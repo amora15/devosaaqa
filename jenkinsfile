@@ -2,6 +2,6 @@ node
 {
   stage ('prueba')
    {
-     sh'Hola mundo'
+     sh'Hola mundo Colombia'
     }
  }
