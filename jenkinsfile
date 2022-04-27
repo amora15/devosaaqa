@@ -6,6 +6,6 @@ node
     }
     stage ('prueba 2')
     {
-      sh 'construyendo el proyecto'
+      sh 'construyendo el proyecto 2'
     }
  }
