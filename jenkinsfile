@@ -1,11 +1,11 @@
 node
 {
-  stage ('prueba')
+  stage ('checkout')
    {
-     sh'Hola mundo Colombia'
+     sh 'Descargar código fuente'
     }
-    stage ('prueba 2')
+    stage ('build')
     {
-      sh 'construyendo el proyecto'
+      sh 'Compilando proyecto taller1'
     }
  }
